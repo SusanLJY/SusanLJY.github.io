@@ -412,6 +412,12 @@ footer {
     word-wrap: normal;
   }
 }
+@media print, screen and (max-width: 630px) {
+  #left,
+  #right {
+    float: none;
+  }
+}
 
 @media print, screen and (max-width: 480px) {
   body {
@@ -435,8 +441,9 @@ footer {
   #head2o2 {
     visibility: hidden;
   }
+  #left,
   #right {
-    float: left;
+    float: none;
   }
 }
 
